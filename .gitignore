@@ -1,0 +1,23 @@
+# Secrets — NEVER commit
+.env
+.streamlit/secrets.toml
+streamlit/secrets.toml
+secrets.toml
+
+# Cache (regenerated at runtime)
+cache/
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
