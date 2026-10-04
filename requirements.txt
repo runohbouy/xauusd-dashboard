@@ -11,5 +11,4 @@ python-dotenv>=1.0.0
 apscheduler>=3.10.0
 pyarrow>=15.0.0
 vaderSentiment>=3.3.2
-tweepy>=4.14.0
 apify-client>=1.6.0

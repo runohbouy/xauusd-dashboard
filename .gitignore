@@ -1,8 +1,10 @@
 # Secrets — NEVER commit
 .env
 .streamlit/secrets.toml
-streamlit/secrets.toml
 secrets.toml
+*.key
+*.pem
+credentials.*
 
 # Cache (regenerated at runtime)
 cache/
@@ -11,6 +13,7 @@ cache/
 # Python
 __pycache__/
 *.pyc
+*.pyo
 .venv/
 venv/
 env/
@@ -19,5 +22,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/secrets.toml
+# IDE
+.vscode/
+.idea/
